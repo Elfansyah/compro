@@ -16,25 +16,25 @@ export default function LayananHome() {
                     <div className="bg-yellow-400 flex flex-col items-center p-5 rounded-md -xl shadow-lg w-96 pt-10">
                         <Image src={img3.src} alt='' width="300" height="200" className='h-[205px] overflow-hidden hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
-                            <h3 className='font-semibold mb-3 text-xl text-black '><a href="/Produk-Layanan#layanan1"></a>Pelaksanaan Konstruksi</h3>
+                            <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan1"></Link>Pelaksanaan Konstruksi</h3>
                             <p className='mb-5 text-black'>Water Treatment Plan (WTP),Waste Water Treatment Plant, Sewage Treatment Plan, Hydropower Dan Bendungan, Pengendalian Banjir </p>
-                            <a href="/Produk-Layanan#layanan1" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</a>
+                            <Link href="/Produk-Layanan#layanan1" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</Link>
                         </div>
                     </div>
                     <div className="bg-yellow-400 flex flex-col items-center p-5 rounded-md -xl shadow-lg overflow-hidden pt-10 w-96 ">
                         <Image src={img4.src} alt='' width="300" height="200" className='h-[200px] hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
-                            <h3 className='font-semibold mb-3 text-xl text-black '><a href="/Produk-Layanan#layanan2"></a>Penyediaan Peralatan Hidro Mekanikal</h3>
+                            <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan2"></Link>Penyediaan Peralatan Hidro Mekanikal</h3>
                             <p className='mb-5 text-black'>Penyediaan peralatan Hidro Mekanikal seperti Pump/Pompa Air, Valve/Katup, dan Bonnet Gate/Pintu Air  </p>
-                            <a href="/Produk-Layanan#layanan2" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</a>
+                            <Link href="/Produk-Layanan#layanan2" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</Link>
                         </div>
                     </div>
                     <div className="bg-yellow-400 flex flex-col items-center p-5 pt-10 rounded-md -xl shadow-lg overflow-hidden w-96">
                         <Image src={img5.src} alt='' width="300" height="237" className='h-[249px] hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
-                            <h3 className='font-semibold mb-3 text-xl text-black '><a href="/Produk-Layanan#layanan3"></a>Perbaikan Dan Pemeliharaan</h3>
+                            <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan3"></Link>Perbaikan Dan Pemeliharaan</h3>
                             <p className='mb-5 text-black'>Perbaikan Dan Pemeliharaan Peralatan Hidro Mekanikal</p>
-                            <a href="/Produk-Layanan#layanan3" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</a>
+                            <Link href="/Produk-Layanan#layanan3" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</Link>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,4 @@
 import Image from "next/image"
-import img1 from "@/app/assets/Proyek3.jpg"
-import { title } from "process";
 
 interface IProps{
     title : string;

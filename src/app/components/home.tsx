@@ -3,9 +3,6 @@ import img1 from "@/app/assets/Foto Tirta 5.jpg";
 import img2 from "@/app/assets/Foto Tirta 4.jpg";
 import img3 from "@/app/assets/Foto Tirta.jpg";
 import img4 from "@/app/assets/Foto Tirta 2.jpg";
-import img5 from "@/app/assets/Foto Tirta 3.jpg";
-import { link } from 'fs';
-import Link from 'next/link';
 
 export default function HomePage() {
     return (
