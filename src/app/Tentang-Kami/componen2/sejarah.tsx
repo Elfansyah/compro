@@ -1,7 +1,7 @@
 import img1 from "@/./../../compro/public/Proyek1.jpg"
-import img2 from "@/./../../compro/public/Proyek2.jpg"
-import img3 from "@/./../../compro/public/Proyek3.jpg"
-import img5 from "@/./../../compro/public/Proyek5.jpg"
+import img2 from "@/./../../compro/public/proyek2.jpg"
+import img3 from "@/./../../compro/public/proyek3.jpg"
+import img5 from "@/./../../compro/public/proyek5.jpg"
 import Link from "next/link";
 import Image from "next/image";
 
