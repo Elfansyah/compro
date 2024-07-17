@@ -3,7 +3,6 @@ import img2 from "@/app/assets/A Yusuf.jpg"
 import img3 from "@/app/assets/Foto Brian.jpg"
 import img4 from "@/app/assets/Foto Rifky.jpg"
 import Link from "next/link"
-import Marquee from "react-fast-marquee";
 import Image from "next/image"
 
 export default function Pimpinan() {

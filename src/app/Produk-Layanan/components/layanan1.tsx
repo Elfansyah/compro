@@ -1,11 +1,12 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "@/app/assets/Proyek1.jpg"
-import img2 from "@/app/assets/Proyek2.jpg"
-import img3 from "@/app/assets/Proyek3.jpg"
-import img4 from "@/app/assets/Proyek4.jpg"
-import img5 from "@/app/assets/Proyek5.jpg"
+import img1 from "@/./../../compro/public/Proyek1.jpg"
+import img2 from "@/./../../compro/public/Proyek2.jpg"
+import img3 from "@/./../../compro/public/Proyek3.jpg"
+import img4 from "@/./../../compro/public/Proyek4.jpg"
+import img5 from "@/./../../compro/public/Proyek5.jpg"
+
 
 export default function Layanan1() {
     return (
