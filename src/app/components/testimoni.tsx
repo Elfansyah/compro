@@ -8,7 +8,7 @@ export default function Testimoni() {
   return (
     <div className="pt-20 pb-20 bg-white w-[425px] lg:w-full">
       <div className="text-center">
-        <h3 className="font-semibold text-yellow-400 textlg lg:text-2xl">TESTIMONI</h3>
+        <h3 className="font-semibold text-yellow-500 textlg lg:text-2xl">TESTIMONI</h3>
         <h1 className="text-black font-bold mb-5 text-xl lg:text-4xl">Mekanikal Hidro Jaya Teknik</h1>
       </div>
       <div className='flex flex-wrap justify-center'>

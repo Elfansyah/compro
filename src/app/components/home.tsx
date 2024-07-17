@@ -9,7 +9,7 @@ export default function HomePage() {
         <div className='bg-white pb-10'>
             <div className="bg-white">
                 <div className="p-5 lg:pl-20 self-center">
-                    <h3 className="bg-yellow-400 font-semibold text-base lg:font-bold  text-white rounded-md px-5 w-60 justify-center mb-2 ">GENERAL CONTRACTOR</h3>
+                    <h3 className="bg-yellow-500 font-semibold text-base lg:font-bold  text-white rounded-md px-5 w-60 justify-center mb-2 ">GENERAL CONTRACTOR</h3>
                     <h1 className="font-bold text-primary text-2xl lg:text-5xl pb-2">Partner Untuk Memberikan Jasa Pelaksanaan Konstruksi</h1>
                     <p className="font-normal text-black leading-relaxed lg:text-xl">Demi solusi terbaik dalam arahan yang tepat sesuai standar tahapan tata aturan teknis pembangunan</p>
                 </div>
@@ -50,7 +50,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className='flex justify-center p-5 pt-7'>
-                <div className="stats shadow bg-yellow-400">
+                <div className="stats shadow bg-yellow-500">
                     <div className="stat place-items-center">
                         <div className="stat-title text-black">Total Proyek</div>
                         <div className="stat-value text-black">30</div>
@@ -59,7 +59,7 @@ export default function HomePage() {
 
                     <div className="stat place-items-center">
                         <div className="stat-title text-black">Proyek Berhasil</div>
-                        <div className="stat-value text-green-500">27</div>
+                        <div className="stat-value text-green-600">27</div>
                         <div className="stat-desc text-black">(92%)</div>
                     </div>
 

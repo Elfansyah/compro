@@ -5,7 +5,7 @@ export default function OverView () {
     return (
         <div className=" pt-20 pb-20 p-10 lg:pt-20 lg:pb-20 bg-primary">
                 <div className="w-full text-center">
-                    <h3 className="font-semibold text-lg text-yellow-400 lg:text-2xl lg:pb-5">Tentang</h3>
+                    <h3 className="font-semibold text-lg text-yellow-500 lg:text-2xl lg:pb-5">Tentang</h3>
                     <h1 className="text-white text-2xl font-bold lg:text-4xl">Mekanikal Hidro Jaya Teknik</h1>
                 </div>
                 <div className='gap-10 pt-10 w-full flex flex-wrap justify-center'>

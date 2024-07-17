@@ -6,7 +6,7 @@ import FetchBlog from "./components/fetchBlog";
 export default function BlogService() {
     return (
         <div className="bg-white pt-10 pb-10">
-            <div className="bg-white text-center">
+            <div className="bg-white text-center pb-10">
                 <h1 className="text-yellow-400 text-3xl font-bold lg:text-4xl">Blog Layanan Dan Produk</h1>
                 <h3 className="font-semibold text-2xl text-black lg:text-3xl">Mekahidro Jaya Teknik</h3>
             </div>
