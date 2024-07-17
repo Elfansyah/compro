@@ -14,7 +14,6 @@ export default function Struktur() {
       </div>
       <div className="pt-5 lg:pt-10">
         <table className="table text-center text-black">
-          {/* head */}
           <thead>
             <tr className="text-black lg:text-lg">
               <th>Foto</th>
@@ -25,25 +24,18 @@ export default function Struktur() {
           <tbody>
             {/* row 1 */}
             <tr>
-
               <td>
                 <div className="flex items-center justify-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <Image
-                        src={img2.src}
-                        alt="Rachmat"
-                        width={500}
-                        height={300} />
+                      <Image src={img2.src} alt="Foto Rachmat" width={48} height={48} />
                     </div>
                   </div>
                 </div>
               </td>
               <td>
                 <div className="flex items-center justify-center gap-3">
-                  <div>
-                    <div className="font-bold">Rachmat</div>
-                  </div>
+                  <div className="font-bold">Rachmat</div>
                 </div>
               </td>
               <td>
@@ -56,22 +48,14 @@ export default function Struktur() {
                 <div className="flex items-center justify-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <Image
-                        src={img1.src}
-                        alt="Avatar Tailwind CSS Component" 
-                        width={500}
-                        height={300}/>
+                      <Image src={img1.src} alt="Foto Muhammad Yusuf" width={48} height={48} />
                     </div>
                   </div>
                 </div>
               </td>
               <td>
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="avatar">
-                  </div>
-                  <div>
-                    <div className="font-bold">Muhammad Yusuf</div>
-                  </div>
+                <div className="flex items-center justify-center gap-3">
+                  <div className="font-bold">Muhammad Yusuf</div>
                 </div>
               </td>
               <td>
@@ -84,20 +68,14 @@ export default function Struktur() {
                 <div className="flex items-center justify-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <Image
-                        src={img3.src}
-                        alt="Avatar Tailwind CSS Component" 
-                        width={500}
-                        height={300}/>
+                      <Image src={img3.src} alt="Foto Brian" width={48} height={48} />
                     </div>
                   </div>
                 </div>
               </td>
               <td>
-                <div className="flex items-center gap-3 justify-center">
-                  <div>
-                    <div className="font-bold">Brian</div>
-                  </div>
+                <div className="flex items-center justify-center gap-3">
+                  <div className="font-bold">Brian</div>
                 </div>
               </td>
               <td>
@@ -110,20 +88,14 @@ export default function Struktur() {
                 <div className="flex items-center justify-center gap-3">
                   <div className="avatar">
                     <div className="mask mask-squircle h-12 w-12">
-                      <Image
-                        src={img4.src}
-                        alt="Avatar Tailwind CSS Component" 
-                        width={500}
-                        height={300}/>
+                      <Image src={img4.src} alt="Foto Rifky Rosichan" width={48} height={48} />
                     </div>
                   </div>
                 </div>
               </td>
               <td>
-                <div className="flex items-center gap-3 justify-center">
-                  <div>
-                    <div className="font-bold">Rifky Rosichan</div>
-                  </div>
+                <div className="flex items-center justify-center gap-3">
+                  <div className="font-bold">Rifky Rosichan</div>
                 </div>
               </td>
               <td>
@@ -133,9 +105,104 @@ export default function Struktur() {
           </tbody>
         </table>
       </div>
+
       <div className="pt-10 flex justify-center">
         <button> <Link href="/Tim-Kami" className="btn btn-primary text-white">Lihat Selengkapnya</Link></button>
       </div>
     </div>
   )
 }
+
+//  <div className="pt-5 lg:pt-10">
+//   <table className="table text-center text-black">
+//   <thead>
+//     <tr className="text-black lg:text-lg">
+//       <th>Foto</th>
+//       <th>Nama</th>
+//       <th>Posisi</th>
+//     </tr>
+//   </thead>
+//   <tbody>
+//     {/* row 1 */}
+//     <tr>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="avatar">
+//             <div className="mask mask-squircle h-12 w-12">
+//               <Image src={img2.src} alt="Foto Rachmat" width={48} height={48} />
+//             </div>
+//           </div>
+//         </div>
+//       </td>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="font-bold">Rachmat</div>
+//         </div>
+//       </td>
+//       <td>
+//         <span>Direktur Utama</span>
+//       </td>
+//     </tr>
+//     {/* row 2 */}
+//     <tr>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="avatar">
+//             <div className="mask mask-squircle h-12 w-12">
+//               <Image src={img1.src} alt="Foto Muhammad Yusuf" width={48} height={48} />
+//             </div>
+//           </div>
+//         </div>
+//       </td>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="font-bold">Muhammad Yusuf</div>
+//         </div>
+//       </td>
+//       <td>
+//         <span>Wakil Direktur</span>
+//       </td>
+//     </tr>
+//     {/* row 3 */}
+//     <tr>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="avatar">
+//             <div className="mask mask-squircle h-12 w-12">
+//               <Image src={img3.src} alt="Foto Brian" width={48} height={48} />
+//             </div>
+//           </div>
+//         </div>
+//       </td>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="font-bold">Brian</div>
+//         </div>
+//       </td>
+//       <td>
+//         <span>Direktur Teknik</span>
+//       </td>
+//     </tr>
+//     {/* row 4 */}
+//     <tr>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="avatar">
+//             <div className="mask mask-squircle h-12 w-12">
+//               <Image src={img4.src} alt="Foto Rifky Rosichan" width={48} height={48} />
+//             </div>
+//           </div>
+//         </div>
+//       </td>
+//       <td>
+//         <div className="flex items-center justify-center gap-3">
+//           <div className="font-bold">Rifky Rosichan</div>
+//         </div>
+//       </td>
+//       <td>
+//         <span>Direktur Operasional</span>
+//       </td>
+//     </tr>
+//   </tbody>
+// </table>
+// </div>

@@ -17,7 +17,7 @@ export default function Sejarah() {
                         src="/Proyek1.jpg"
                         alt="foto1"
                         className="w-full" 
-                        width={500}
+                        width={400}
                         height={300}/>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <Link href="#slide4" className="btn btn-circle">❮</Link>
@@ -29,7 +29,7 @@ export default function Sejarah() {
                         src="/proyek2.jpg"
                         alt="foto2"
                         className="w-full" 
-                        width={150} height={100}/>
+                        width={400} height={300}/>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <Link href="#slide1" className="btn btn-circle">❮</Link>
                         <Link href="#slide3" className="btn btn-circle">❯</Link>
@@ -40,7 +40,7 @@ export default function Sejarah() {
                         src="/proyek3.jpg"
                         alt="foto3"
                         className="w-full" 
-                        width={500}
+                        width={400}
                         height={300}/>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <Link href="#slide2" className="btn btn-circle">❮</Link>
@@ -52,7 +52,7 @@ export default function Sejarah() {
                         src="/proyek5.jpg"
                         alt="foto4"
                         className="w-full" 
-                        width={500}
+                        width={400}
                         height={300}/>
                     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <Link href="#slide3" className="btn btn-circle">❮</Link>
