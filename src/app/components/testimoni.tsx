@@ -16,7 +16,7 @@ export default function Testimoni() {
           <div className='p-4 rounded-md shadow-md overflow-hidden flex gap-5 lg:w-[700px] lg:h-[130px]'>
             <div>
               <Image src={img1.src} alt="Testimoni 1" width="50" height={130} />
-            </div>
+            </div>y
             <div className='flex flex-col'>
               <h3 className='font-semibold lg:text-xl text-black'>Guntur</h3>
               <div className="rating">
@@ -26,7 +26,7 @@ export default function Testimoni() {
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
               </div>
-              <p className='font-medium text-sm lg:text-base text-black'>&quo;tUntuk pemesanan produk mekahidro sangat lengkap, orginal, dan bergaransi lama.&quot;</p>
+              <p className='font-medium text-sm lg:text-base text-black'>&quot;tUntuk pemesanan produk mekahidro sangat lengkap, orginal, dan bergaransi lama.&quot;</p>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function Testimoni() {
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
               </div>
-              <p className='font-medium text-sm lg:text-base text-black'>&quo;Pengerjaan Konstruksi Pipa dan katup sangat cepat sesuai dengan SPK, harga bersahabat, dan bergaransi.&quo;</p>
+              <p className='font-medium text-sm lg:text-base text-black'>&quot; Pengerjaan Konstruksi Pipa dan katup sangat cepat sesuai dengan SPK, harga bersahabat, dan bergaransi. &quot;</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Testimoni() {
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
               </div>
-              <p className='font-medium text-sm lg:text-base text-black'>&quo;Pelayanan sangat baik, mulai dari persiapan hingga Pengerjaan sangat cepat!&quo;</p>
+              <p className='font-medium text-sm lg:text-base text-black'>&quot;Pelayanan sangat baik, mulai dari persiapan hingga Pengerjaan sangat cepat!&quot;</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Testimoni() {
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
               </div>
-              <p className='font-medium text-sm lg:text-base text-black'>&quo;Makasih MJT, pembelian alat konstruksinya lengkap!&quo;</p>
+              <p className='font-medium text-sm lg:text-base text-black'>&quot;Makasih MJT, pembelian alat konstruksinya lengkap!&quot;</p>
             </div>
           </div>
         </div>
