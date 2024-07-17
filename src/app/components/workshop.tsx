@@ -8,7 +8,7 @@ export default function Workshop() {
     return (
         <div className="pt-10 pb-20 p-5 bg-white">
             <div className="text-center pb-10">
-                <h3 className="font-semibold text-yellow-500 text-lg lg:text-2xl">Workshop Kami</h3>
+                <h3 className="font-semibold text-yellow-400 text-lg lg:text-2xl">Workshop Kami</h3>
                 <h1 className="text-primary font-bold text-2xl lg:text-4xl">Mekanikal Hidro Jaya Teknik</h1>
             </div>
             <div className='hidden p-5 lg:flex justify-center gap-1'>

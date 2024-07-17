@@ -9,11 +9,11 @@ export default function LayananHome() {
         <div>
             <div className='pt-20 pb-20 bg-white'>
                 <div className="text-center pb-10">
-                    <h3 className="font-semibold text-yellow-500 text-lg lg:text-2xl">Layanan & Produk</h3>
+                    <h3 className="font-semibold text-yellow-400 text-lg lg:text-2xl">Layanan & Produk</h3>
                     <h1 className="text-primary font-bold text-2xl lg:text-4xl">Mekanikal Hidro Jaya Teknik</h1>
                 </div>
                 <div className="flex flex-wrap bg-white gap-20 mx-auto items-center justify-center ">
-                    <div className="bg-yellow-500 flex flex-col items-center p-5 rounded-md -xl shadow-lg w-96 pt-10">
+                    <div className="bg-yellow-400 flex flex-col items-center p-5 rounded-md -xl shadow-lg w-96 pt-10">
                         <Image src={img3.src} alt='' width="300" height="200" className='h-[205px] overflow-hidden hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
                             <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan1"></Link>Pelaksanaan Konstruksi</h3>
@@ -21,7 +21,7 @@ export default function LayananHome() {
                             <Link href="/Produk-Layanan#layanan1" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</Link>
                         </div>
                     </div>
-                    <div className="bg-yellow-500 flex flex-col items-center p-5 rounded-md -xl shadow-lg overflow-hidden pt-10 w-96 ">
+                    <div className="bg-yellow-400 flex flex-col items-center p-5 rounded-md -xl shadow-lg overflow-hidden pt-10 w-96 ">
                         <Image src={img4.src} alt='' width="300" height="200" className='h-[200px] hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
                             <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan2"></Link>Penyediaan Peralatan Hidro Mekanikal</h3>
@@ -29,7 +29,7 @@ export default function LayananHome() {
                             <Link href="/Produk-Layanan#layanan2" className='font-medium text-sm text-white bg-primary rounded-md py-2 px-4 hover:opacity-80'>Baca Selengkapnya</Link>
                         </div>
                     </div>
-                    <div className="bg-yellow-500 flex flex-col items-center p-5 pt-10 rounded-md -xl shadow-lg overflow-hidden w-96">
+                    <div className="bg-yellow-400 flex flex-col items-center p-5 pt-10 rounded-md -xl shadow-lg overflow-hidden w-96">
                         <Image src={img5.src} alt='' width="300" height="237" className='h-[249px] hover:scale-105 transition duration-300 ease-in-out' />
                         <div className='py-6 px-6'>
                             <h3 className='font-semibold mb-3 text-xl text-black '><Link href="/Produk-Layanan#layanan3"></Link>Perbaikan Dan Pemeliharaan</h3>
