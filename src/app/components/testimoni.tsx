@@ -16,7 +16,7 @@ export default function Testimoni() {
           <div className='p-4 rounded-md shadow-md overflow-hidden flex gap-5 lg:w-[700px] lg:h-[130px]'>
             <div>
               <Image src={img1.src} alt="Testimoni 1" width="50" height={130} />
-            </div>y
+            </div>
             <div className='flex flex-col'>
               <h3 className='font-semibold lg:text-xl text-black'>Guntur</h3>
               <div className="rating">
