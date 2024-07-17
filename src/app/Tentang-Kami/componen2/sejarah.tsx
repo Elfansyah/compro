@@ -1,7 +1,3 @@
-import img1 from "@/./../../compro/public/Proyek1.jpg"
-import img2 from "@/./../../compro/public/proyek2.jpg"
-import img3 from "@/./../../compro/public/proyek3.jpg"
-import img5 from "@/./../../compro/public/proyek5.jpg"
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,7 +14,7 @@ export default function Sejarah() {
             <div className="carousel lg:w-1/3">
                 <div id="slide1" className="carousel-item relative w-full">
                     <Image
-                        src={img1.src}
+                        src="/Proyek1.jpg"
                         alt="foto1"
                         className="w-full" 
                         width={500}
@@ -30,7 +26,7 @@ export default function Sejarah() {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                     <Image
-                        src={img2.src}
+                        src="/proyek2.jpg"
                         alt="foto2"
                         className="w-full" 
                         width={150} height={100}/>
@@ -41,7 +37,7 @@ export default function Sejarah() {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                     <Image
-                        src={img3.src}
+                        src="/proyek3.jpg"
                         alt="foto3"
                         className="w-full" 
                         width={500}
@@ -53,7 +49,7 @@ export default function Sejarah() {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                     <Image
-                        src={img5.src}
+                        src="/proyek5.jpg"
                         alt="foto4"
                         className="w-full" 
                         width={500}
