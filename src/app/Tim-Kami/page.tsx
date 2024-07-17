@@ -1,5 +1,11 @@
 import Pimpinan from "./component/pimpinan";
 import Staff from "./component/staff";
+import { Metadata } from 'next';
+
+export const metadata : Metadata = {
+    title : "Tim PT. Mekahidro Jaya Teknik",
+    description : "Tim PT. Mekahidro Jaya Teknik"
+  }
 
 export default function TimKami() {
     return (

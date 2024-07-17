@@ -20,11 +20,11 @@ export default function Layanan1() {
             </div>
                 <div className="w-full">
                     <Marquee autoFill>
-                        <Image src="/Proyek1.jpg" alt="proyek1" width={500} height={500} className="w-[425px] h-[200px] lg:w-[450px] lg:h-[250px]" />
-                        <Image src="/proyek2.jpg" alt="proyek2" width={500} height={500} className="w-[425px] h-[200px] lg:w-[450px] lg:h-[250px]" />
-                        <Image src="/proyek3.jpg" alt="proyek3" width={500} height={500} className="w-[425px] h-[200px] lg:w-[450px] lg:h-[250px]" />
-                        <Image src="/proyek4.jpg" alt="proyek4" width={500} height={500} className="w-[425px] h-[200px] lg:w-[450px] lg:h-[250px]" />
-                        <Image src="/proyek5.jpg" alt="proyek5" width={500} height={500} className="w-[425px] h-[200px] lg:w-[450px] lg:h-[250px]" />
+                        <Image src="/Proyek1.jpg" alt="proyek1" width={500} height={500} className="w-[400px] h-[200px] lg:w-[450px] lg:h-[250px]" />
+                        <Image src="/proyek2.jpg" alt="proyek2" width={500} height={500} className="w-[400px] h-[200px] lg:w-[450px] lg:h-[250px]" />
+                        <Image src="/proyek3.jpg" alt="proyek3" width={500} height={500} className="w-[400px] h-[200px] lg:w-[450px] lg:h-[250px]" />
+                        <Image src="/proyek4.jpg" alt="proyek4" width={500} height={500} className="w-[400px] h-[200px] lg:w-[450px] lg:h-[250px]" />
+                        <Image src="/proyek5.jpg" alt="proyek5" width={500} height={500} className="w-[400px] h-[200px] lg:w-[450px] lg:h-[250px]" />
                     </Marquee>
                 </div>
                 <div className="p-5 pt-10 lg:pl-20 lg:pr-20">

@@ -7,9 +7,9 @@ import Image from "next/image"
 
 export default function Staff() {
     return (
-        <div className="p-5 pt-5 lg:pt-0 pb-20 lg:pb-32 bg-white">
+        <div className="p-5 pt-5 lg:pt-10 pb-20 lg:pb-32 bg-white">
             <div className="divider divider-info text-black pb-10 font-semibold p-10">Staff Perusahaan</div>
-            <div className="flex flex-wrap lg:flex-nowrap lg:gap-20 lg:pl-24">
+            <div className="flex flex-wrap lg:flex-nowrap lg:gap-20 lg:pl-24 lg:pt-10">
                 <div className="lg:w-1/2 pb-5">
                     <div className="card lg:card-side bg-primary shadow-xl lg:w-[600px] lg:h-[300px]">
                         <figure>

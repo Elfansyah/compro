@@ -13,7 +13,7 @@ export default function HomePage() {
                     <h1 className="font-bold text-primary text-2xl lg:text-5xl pb-2">Partner Untuk Memberikan Jasa Pelaksanaan Konstruksi</h1>
                     <p className="font-normal text-black leading-relaxed lg:text-xl">Demi solusi terbaik dalam arahan yang tepat sesuai standar tahapan tata aturan teknis pembangunan</p>
                 </div>
-                <div className="carousel h-[170px] w-[425px] lg:h-[300px] lg:w-[1519px]">
+                <div className="carousel h-[170px] w-[400px] lg:h-[300px] lg:w-[1519px]">
                     {/* h-[180px] w-[497px] lg:h-[350px] w-[1520px] */}
                     <div id="item1" className="carousel-item w-full">
                         <Image

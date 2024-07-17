@@ -2,6 +2,12 @@ import Blog1 from "./components/blog1";
 import Blog2 from "./components/blog2";
 import Blog3 from "./components/blog3";
 import FetchBlog from "./components/fetchBlog";
+import { Metadata } from 'next';
+
+export const metadata : Metadata = {
+    title : "Blog Layanan & Produk",
+    description : "Blog Layanan & Produk PT. Mekahidro Jaya Teknik"
+  }
 
 export default function BlogService() {
     return (

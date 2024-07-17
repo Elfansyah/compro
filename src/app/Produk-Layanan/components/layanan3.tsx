@@ -18,7 +18,7 @@ export default function Layanan3() {
                             Hal ini perlukan agar untuk memaksimalkan atau optimalisasi kinerja dari alat hidro yang telah terpasang. Selain itu fungsi perawatan atau mengganti part yang sudah pada masanya, dapat meminimalisir biaya yang besar atau mengganti unit baru jika mengalami kerusakan yang menyebabkan kinerja alat sudah tidak bisa diperbaiki lagi.
                         </p>
                     </div>
-                    <div className="diff w=[425px] h-[500px] lg:w-1/2 lg:hidden">
+                    <div className="diff w=[400px] h-[500px] lg:w-1/2 lg:hidden">
                         <div className="diff-item-1">
                             <Image src={img2.src}
                                 alt="daisy"

@@ -17,7 +17,7 @@ export default function Workshop() {
                 <Image src={img3.src} alt="Workshop" width="475" height={100}/>
             </div>
             <div className="carousel rounded-mg w-full lg:hidden pb-10">
-                <div className="carousel-item w-[425px] h-[300px]">
+                <div className="carousel-item w-[400px] h-[300px]">
                     <Image
                         src={img1.src}
                         alt="Tailwind CSS Carousel component"
